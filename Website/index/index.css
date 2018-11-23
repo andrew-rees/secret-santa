@@ -1,0 +1,52 @@
+/*TO DO
+    - picture
+    - background
+    - button style
+    -input style
+
+*/
+body {
+    /*applies to the body*/
+    font: 10pt Verdana, Geneva, sans-serif;
+    color: black;
+    font-size: 10pt;
+}
+
+h2 {
+    /*applies to the header h1 */
+    color: white;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+html {
+    /*applies to all*/
+    background-color: red;
+    background-image: url("../data/chicken.jpg");
+    font: 10pt Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+#submit {
+    background-image: radial-gradient(yellow, brown);
+}
+
+p {
+    color: orange;
+}
+
+#results {
+    animation-name: results;
+    animation-delay: 5s;
+    animation-duration: 2s;
+}
+
+@keyframes results
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;}
+100% {transform: rotate(-360deg);left:0px;}
+}
