@@ -22,7 +22,7 @@ h2 {
 html {
     /*applies to all*/
     background-color: red;
-    background-image: url("../data/chicken.jpg");
+    background-image: url("chicken.jpg");
     font: 10pt Verdana, Geneva, sans-serif;
     font-weight: bold;
 }
