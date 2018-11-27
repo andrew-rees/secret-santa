@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
             var randomRecipient = (Math.floor(Math.random() * (possibleRecipients.length - 0)) + 0);
             var recipient = possibleRecipients[randomRecipient];
             var recipientNumber = possibleRecipientNumbers[randomRecipient];
-            listOfRecipients.push(recipient)
+            listOfRecipients.push(recipient);
 
             //set their chosen value to Y so they can't receive again
             people.forEach(value => {
@@ -132,16 +132,16 @@ document.addEventListener("DOMContentLoaded", () => {
             var messageConsole = "";
             var messagePage = "";
             messageConsole += `${giver} is buying for ${recipient}.`;
-            messagePage += `${giver} is buying for Mystery Person ${recipientNumber + 1}.` //sort this
+            messagePage += `${giver} is buying for ... Person ${recipientNumber + 1}` //sort this
             if (giver === recipient) {
                 message += " - Error, giver = recipient";
             } else if (recipient === undefined) {
                 message += " - Error, recipient is undefined";
             } else if (giver === undefined) {
                 message += " - Error, giver is undefined";
-            }
-            console.log(messageConsole)
-            displayResults()
+            };
+            console.log(messageConsole);
+            displayResults();
         };
 
         function displayResults() {
