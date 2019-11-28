@@ -1,13 +1,13 @@
 var people = [{
         number: 0,
-        name: "Siobhan",
+        name: "Sam Knibbs",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 1,
-        name: "Sam",
+        name: "Sam Donaldson",
         everReceived: false,
         currentGiver: false,
         canGive: true
@@ -35,7 +35,7 @@ var people = [{
     },
     {
         number: 5,
-        name: "Anisha",
+        name: "Laura",
         everReceived: false,
         currentGiver: false,
         canGive: true
@@ -56,7 +56,7 @@ var people = [{
     },
     {
         number: 8,
-        name: "Sue",
+        name: "Emily",
         everReceived: false,
         currentGiver: false,
         canGive: true
