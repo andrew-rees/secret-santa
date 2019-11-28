@@ -1,62 +1,69 @@
 var people = [{
         number: 0,
-        name: "Sam Knibbs",
+        name: "Jag",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 1,
-        name: "Sam Donaldson",
+        name: "Ben",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 2,
-        name: "Rob",
+        name: "Sweta",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 3,
-        name: "Paul",
+        name: "Ross",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 4,
-        name: "Poly",
+        name: "Joanna",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 5,
-        name: "Laura",
+        name: "Pete",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
         number: 6,
-        name: "Juliet",
-        everReceived: false,
-        currentGiver: false,
-        canGive: true
-    },
-    {
-        number: 7,
         name: "Andy",
         everReceived: false,
         currentGiver: false,
         canGive: true
     },
     {
+        number: 7,
+        name: "Cristina",
+        everReceived: false,
+        currentGiver: false,
+        canGive: true
+    },
+    {
         number: 8,
-        name: "Emily",
+        name: "Leighton",
+        everReceived: false,
+        currentGiver: false,
+        canGive: true
+    },
+    {
+        number: 9,
+        name: "Nitika",
         everReceived: false,
         currentGiver: false,
         canGive: true
